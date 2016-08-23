@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		755D936B1D6C8C480014D551 /* ListBoard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 755D936A1D6C8C480014D551 /* ListBoard.storyboard */; };
 		B65BB3F81D6C89C7004BEB0A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B65BB3F71D6C89C7004BEB0A /* AppDelegate.swift */; };
 		B65BB3FA1D6C89C7004BEB0A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B65BB3F91D6C89C7004BEB0A /* ViewController.swift */; };
 		B65BB3FD1D6C89C7004BEB0A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B65BB3FB1D6C89C7004BEB0A /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		755D936A1D6C8C480014D551 /* ListBoard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ListBoard.storyboard; sourceTree = "<group>"; };
 		B65BB3F41D6C89C7004BEB0A /* BloodHub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BloodHub.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B65BB3F71D6C89C7004BEB0A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B65BB3F91D6C89C7004BEB0A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -99,6 +101,7 @@
 			children = (
 				B65BB3F71D6C89C7004BEB0A /* AppDelegate.swift */,
 				B65BB3F91D6C89C7004BEB0A /* ViewController.swift */,
+				755D936A1D6C8C480014D551 /* ListBoard.storyboard */,
 				B65BB3FB1D6C89C7004BEB0A /* Main.storyboard */,
 				B65BB3FE1D6C89C7004BEB0A /* Assets.xcassets */,
 				B65BB4001D6C89C7004BEB0A /* LaunchScreen.storyboard */,
@@ -232,6 +235,7 @@
 				B65BB4021D6C89C7004BEB0A /* LaunchScreen.storyboard in Resources */,
 				B65BB3FF1D6C89C7004BEB0A /* Assets.xcassets in Resources */,
 				B65BB3FD1D6C89C7004BEB0A /* Main.storyboard in Resources */,
+				755D936B1D6C8C480014D551 /* ListBoard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -484,6 +488,7 @@
 				B65BB41E1D6C89C7004BEB0A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B65BB41F1D6C89C7004BEB0A /* Build configuration list for PBXNativeTarget "BloodHubTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +497,7 @@
 				B65BB4211D6C89C7004BEB0A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B65BB4221D6C89C7004BEB0A /* Build configuration list for PBXNativeTarget "BloodHubUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +506,7 @@
 				B65BB4241D6C89C7004BEB0A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
