@@ -15,9 +15,26 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
-        // Override point for customization after application launch.
+        self.window?.rootViewController = self.tabController()
         return true
     }
+    
+    func tabController() -> UITabBarController {
+
+        
+        let tabController = UITabBarController()
+        
+        let addboard = UIStoryboard(name: "AddController", bundle: nil)
+        let listboard = UIStoryboard(name: "ListBoard", bundle: nil)
+        
+        let listController = listboard.instantiateViewControllerWithIdentifier("ListController")
+        let addController = addboard.instantiateViewControllerWithIdentifier("AddController")
+        
+        tabController.viewControllers = [listController, addController];
+        
+        return tabController
+    }
+
 
     func applicationWillResignActive(application: UIApplication) {
         // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.

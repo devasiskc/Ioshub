@@ -5,10 +5,10 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Add View Controller-->
         <scene sceneID="H8X-EH-Exs">
             <objects>
-                <viewController id="PUv-2T-xAc" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="AddController" id="PUv-2T-xAc" customClass="AddViewController" customModule="BloodHub" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="8bi-6L-0FB"/>
                         <viewControllerLayoutGuide type="bottom" id="aBC-gK-Giy"/>
@@ -16,7 +16,7 @@
                     <view key="view" contentMode="scaleToFill" id="RCG-Hh-K86">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.4205241414" green="0.43348467390000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                 </viewController>
