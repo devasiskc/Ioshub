@@ -26,11 +26,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         let addboard = UIStoryboard(name: "AddController", bundle: nil)
         let listboard = UIStoryboard(name: "ListBoard", bundle: nil)
+        let searchboard = UIStoryboard(name: "Search", bundle: nil)
         
         let listController = listboard.instantiateViewControllerWithIdentifier("ListController")
         let addController = addboard.instantiateViewControllerWithIdentifier("AddController")
+        let searchController = searchboard.instantiateViewControllerWithIdentifier("SearchController")
         
-        tabController.viewControllers = [listController, addController];
+        tabController.viewControllers = [listController, addController,searchController];
         
         return tabController
     }
